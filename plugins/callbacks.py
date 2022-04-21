@@ -47,6 +47,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
+                    InlineKeyboardButton("Channel", url="https://t.me/FPHDMOVE"),
                     InlineKeyboardButton("Connection", callback_data="about_data")
                 ]
             ]
